@@ -52,7 +52,7 @@ const NewsCart = ({ news }) => {
               readonly
               placeholderRating={rating?.number}
               emptySymbol={<FaRegStar />}
-              placeholderSymbol={<FaStar className="text-warning"/>}
+              placeholderSymbol={<FaStar className="text-warning" />}
               fullSymbol={<FaStar />}
             />
             <span>{rating?.number}</span>
